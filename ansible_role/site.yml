@@ -1,18 +1,18 @@
 ---
 - name: Roles for the application servers
-  hosts: webserver
+  hosts: tag_Server_web_server
   become: true
   roles:
     - webserver
 
 - name: Roles for the node deployment
-  hosts: node
+  hosts: tag_Server_app_server
   become: true
   roles:
     - node
 
 - name: Roles for the node app
-  hosts: app
+  hosts: tag_Server_app_server
   become: true
   roles:
     - app
