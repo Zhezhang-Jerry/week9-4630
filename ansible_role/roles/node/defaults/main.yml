@@ -1,4 +1,6 @@
 ---
+NODEJS_VERSION: "18"
+ansible_distribution_release: "jammy"
 node_app_dir: "/var/www/html/app"
 node_app_user: "www-data"
 node_app_group: "www-data"
