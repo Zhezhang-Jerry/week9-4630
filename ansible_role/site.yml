@@ -15,5 +15,5 @@
   hosts: app
   become: true
   roles:
-    - node-app
+    - app
 
