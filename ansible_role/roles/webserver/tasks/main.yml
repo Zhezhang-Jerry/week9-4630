@@ -3,7 +3,7 @@
   apt:
     name: nginx
     state: present
-    update_cache: yes
+    update_cache: true
 
 - name: copy html document to the server
   tags: copy_html, server_reload
