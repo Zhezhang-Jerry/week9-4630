@@ -6,7 +6,7 @@
     state: directory
     owner: www-data
     group: www-data
-    mode: 0604
+    mode: 0644
 
 - name: Copy package-lock.json to server
   tags: app
