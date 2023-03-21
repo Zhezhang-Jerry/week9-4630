@@ -33,3 +33,5 @@
     state: reloaded
     enabled: true
     daemon_reload: true
+
+# newline character added at the end of the file

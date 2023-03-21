@@ -16,3 +16,5 @@
   become: true
   roles:
     - app
+
+# newline character added at the end of the file

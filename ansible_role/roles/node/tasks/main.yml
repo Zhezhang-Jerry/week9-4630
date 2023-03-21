@@ -22,3 +22,5 @@
   apt:
     name: nodejs
     state: latest
+
+# newline character added at the end of the file

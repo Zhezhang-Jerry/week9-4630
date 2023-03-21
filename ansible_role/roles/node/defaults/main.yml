@@ -8,3 +8,5 @@ node_package_manager: "npm"
 node_app_dependencies:
   - express
   - body-parser
+
+# newline character added at the end of the file

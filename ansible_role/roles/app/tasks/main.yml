@@ -60,3 +60,5 @@
     name: node_app
     state: started
     enabled: true
+
+# newline character added at the end of the file
