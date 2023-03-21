@@ -1,0 +1,19 @@
+---
+- name: Roles for the application servers
+  hosts: webserver
+  become: true
+  roles:
+    - webserver
+
+- name: Roles for the node deployment
+  hosts: node
+  become: true
+  roles:
+    - node
+
+- name: Roles for the node app
+  hosts: app
+  become: true
+  roles:
+    - node-app
+
